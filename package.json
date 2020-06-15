@@ -4,7 +4,7 @@
   "main": "dist/lib/VueDragscrollLite.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build:demo": "vue-cli-service build --dest dist/demo",
+    "build:demo": "vue-cli-service build --public-path ./ --dest dist/demo",
     "build:lib": "vue-cli-service build --target lib --dest dist/lib --name VueDragscrollLite 'src/components/DragScroll.vue'",
     "lint": "vue-cli-service lint",
     "release": "bash scripts/release.sh"
