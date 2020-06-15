@@ -1,29 +1,45 @@
 # vue-dragscroll-lite
+A Vue Component enables scrolling via drag.([demo](https://koucxz.github.io/vue-dragscroll-lite/))
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+## Installation
+```sh
+$ npm i vue-dragscroll-lite
 ```
 
-### Compiles and minifies for production
+## How To Use
+
+Template:
 ```
-npm run build
+<drag-scroll
+  class="dragscroll"
+>
+  <div class="dragscroll-inner">Vue DragScroll!</div>
+</drag-scroll>
 ```
 
-### Run your tests
+Script:
 ```
-npm run test
+import DragScroll from '@/components/DragScroll.vue'
+
+export default {
+  components: {
+    DragScroll
+  },
+}
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Developments
+### `npm run serve`
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Runs the app in the development mode.<br>
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
+
+## Show Your Support
+Please give a ⭐️ if this project helped you!
+
+## License
+
+This project is [MIT](https://github.com/probil/vue-moveable/blob/master/LICENSE) licensed.
